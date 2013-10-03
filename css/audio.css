@@ -1,0 +1,74 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+h1 {font-size:48px;font-family:'Open Sans';font-weight:200;letter-spacing:1px;text-align:center;padding-bottom:20px;margin-bottom:20px;border-bottom:3px double #666;}
+
+#recorded-audio {width:100%;display:block;margin:20px 0;padding:10px 0;border-top:1px dotted #eee;border-bottom:1px dotted #eee;}
+
+#title {margin-bottom:1em;}
+label {display:block;}
+
+.finished-chapter {
+	background:#ddd;
+	border-bottom:1px solid #ccc;
+	cursor:pointer;
+}
+.selected.finished-chapter {
+	background:#ffc;
+}
+.finished-chapter .main {
+	display:block;
+	padding:20px 10px;
+}
+.finished-chapter .main:hover {
+	background:#ffe;
+}
+.finished-chapter .download {
+	margin-left:10px;
+}
+
+.finished-chapter:nth-child(even) {
+	background:#fff;
+}
+.finished-chapter .chapter {
+	margin-right:10px;
+	font:700 16px arial;
+}
+.finished-chapter .blob {
+	color:#888;
+	font-size:.8em;
+}
+
+
+.step {border:1px solid #ddd;border-radius:3px;padding:10px 20px;margin:0 0 20px;}
+
+.explain {
+	color:#888;
+	font-size:.8em;
+}
+
+.book-title {background:#ffd;display:inline-block;padding:5px;border:1px dotted #dde;color:#f53;}
+
+
+
+/**
+ * Via Drupal CSS.
+ */
+.element-invisible{
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
+
+
+
+
+
+
+
